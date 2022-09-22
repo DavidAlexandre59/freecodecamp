@@ -1,70 +1,102 @@
 <<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>freecodecamp</title>
-</head>
-<body>
-    
-   <h1> freecodecamp Survey Form </h1>
-   <h4>Thank you for taking the time to help us improve the platform</h4>
-  <br>
-  <p>Name</p><br>
-   <label for="name"></label>
+    <html lang="fr">
 
-   <input type="text" required minlength="4" maxlength="15" size="15"> <br>
-   <p>Email</p><br>
-   <label for="name"></label>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>freecodecamp</title>
+    </head>
 
-   <input type="text" required minlength="4" maxlength="15" size="15"> <br>
-   <p>Age</p><br>
-   <label for="name"></label>
+    <body>
 
-   <input type="text" required minlength="4" maxlength="15" size="15"> <br>
+        <h1> freecodecamp Survey Form </h1>
+        <h4>Thank you for taking the time to help us improve the platform</h4>
+        
+        
+        <form action="">
+        <br> <form action=""></form>
+        <p>Name</p><br>
+        <label for="name"></label>
 
-   <br><br>
+        <input type="text" required minlength="4" maxlength="15" size="15"> <br>
+        <p>Email</p><br>
+        <label for="name"></label>
 
-   <form method="post" action="mailto:votreemail@email.com">
-	
-    <label for="Selectionner"></label> <br>
+        <input type="text" required minlength="4" maxlength="15" size="15"> <br>
+        <p>Age</p><br>
+        <label for="name"></label>
 
-    <select name="Choix" id="Selectionner">
-        <option value="">--Select current role--</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-    </select> <br><br>
+        <input type="text" required minlength="4" maxlength="15" size="15"> <br>
 
-	<label>Would you recommend freeCodeCamp to a friend?</label> <br />
-	<input type="radio" name="Rep" value="Definitely" /> Definitely <br />
-	<input type="radio" name="Rep" value="Maybe" /> Maybe <br />
-	<input type="radio" name="Rep" value="Not Sure" /> Not Sure <br />
-<br><br>
-   
-    <label for="Selectionner"></label>
+        <br><br>
+        Which option best describes your current role?
+        <br>
+        <form method="post" action="mailto:votreemail@email.com">
 
-    <select name="Choix" id="Selectionner">
-        <option value="">--Select an option--</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-    </select>
-   <br><br>
-    <p>What Would you like to see improved? (Check all that apply)</p>
+            <label for="Selectionner"></label> <br>
+
+            <select name="Choix" id="Selectionner">
+                <option value="">--Select current role--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select> <br><br>
+
+            <label>Would you recommend freeCodeCamp to a friend?</label> <br /><br>
+            <input type="radio" name="Rep" value="Definitely" /> Definitely <br />
+            <br>
+            <input type="radio" name="Rep" value="Maybe" /> Maybe <br />
+            <br>
+            <input type="radio" name="Rep" value="Not Sure" /> Not Sure <br />
+            <br><br>
+
+            <label for="Selectionner"></label>
+
+            <select name="Choix" id="Selectionner">
+                <option value="">--Select an option--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <br><br>
+
+            <p>What Would you like to see improved? (Check all that apply)</p>
+            <br>
+            
+                <INPUT type="checkbox" name="choix1" value="1"> Front-end Projects <br>
+                <INPUT type="checkbox" name="choix2" value="2"> Back-end Projects <br>
+                <INPUT type="checkbox" name="choix3" value="3"> Date Visualization <br>
+                <INPUT type="checkbox" name="choix4" value="4"> Challenges <br>
+                <INPUT type="checkbox" name="choix1" value="1"> Open Source Community <br>
+                <INPUT type="checkbox" name="choix2" value="2"> Gitter helps room <br>
+                <INPUT type="checkbox" name="choix3" value="3"> Videos <br>
+                <INPUT type="checkbox" name="choix4" value="4"> City Meetup <br>
+                <INPUT type="checkbox" name="choix2" value="2"> Wiki <br>
+                <INPUT type="checkbox" name="choix3" value="3"> Forum <br>
+                <INPUT type="checkbox" name="choix4" value="4"> Additional Courses <br>
+                
 
 
-	
-</form>
+                <form method="post" action="ton_script_recup_data_form.php">
+
+                        Any Comment or Suggestions? :<br />
+                        <textarea name="commentaire" rows="5" cols="40"></textarea>
+                    </p>
+                
 
 
-</body>
-</html>
+        </form>
+
+
+
+    </body>
+
+    </html>
