@@ -1,0 +1,21 @@
+body {
+    
+
+    background-color: rgb(198, 249, 249);
+    text-align: center;
+}
+
+h1,h4,figure {
+    color: rgb(8, 8, 8);
+    font-style: italic;
+
+    figure {
+
+        background-color: aliceblue;
+    }
+    
+    ul {
+        width: 20%;
+    margin: auto;
+    text-align: justify;
+    }
